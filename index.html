@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Calculators and Converters</title>
+</head>
+<body>
+    <header>
+        <div id="main-heading">Calculators and Converters</div>
+        <nav id="navigation-bar">
+            <ul id="nav-list">
+                <li class="nav-item">Arithmetic Calculator</li>
+                <li class="nav-item">BMI Calculator</li>
+                <li class="nav-item">Temperature Converter</li>
+                <li class="nav-item">Weight Converter</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="options">
+            <div id="convert-from-heading">Convert From</div>
+            <div id="cf-options">  
+                <div class="cf-option">
+                    <input type="radio" id="cf-kelvin-option" name="cf">
+                    <label for="cf-kelvin-option" id="cf-kelvin">Kelvin</label>
+                </div>
+                <div class="cf-option">
+                    <input type="radio" id="cf-celsius-option" name="cf">
+                    <label for="cf-celsius-option" id="cf-celsius">Celsius</label>
+                </div>
+                <div class="cf-option">
+                    <input type="radio" id="cf-fahrenheit-option" name="cf">
+                    <label for="cf-fahrenheit-option" id="cf-fahrenheit">Fahrenheit</label>
+                </div>
+            </div> 
+            <div id="covert-to-heading">Convert To</div>
+            <div id="ct-options">   
+                <div class="ct-option">
+                    <input type="radio" id="ct-kelvin-option" name="ct">
+                    <label for="ct-kelvin-option" id="ct-kelvin">Kelvin</label>
+                </div>
+                <div class="ct-option">
+                    <input type="radio" id="ct-celsius-option" name="ct">
+                    <label for="ct-celsius-option" id="ct-celsius">Celsius</label>
+                </div>
+                <div class="ct-option">
+                    <input type="radio" id="ct-fahrenheit-option" name="ct">
+                    <label for="ct-fahrenheit-option" id="ct-fahrenheit">Fahrenheit</label>
+                </div>
+            </div> 
+        </div>
+        <div id="temperature-container">
+            <div id="input-prompt">Enter temperature:</div>
+            <div id="temperature-input"><input type="text" id="user-input"></div>
+        </div>
+        <button type ="button" id="converter">Convert</button>
+        <div id="output-temperature"></div>
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script src="js/script.js"></script> 
+    
+</body>
+</html>
