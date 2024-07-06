@@ -50,7 +50,7 @@ submit.onclick = function(){
         result.textContent = "minimum temperature in celsius is -273.15";
         return;
     }
-    if (cfUnitFinal === "celsius" && temperatureInput.value < -459.6){
+    if (cfUnitFinal === "fahrenheit" && temperatureInput.value < -459.6){
         result.textContent = "minimum temperature in fahrenheit is -459.6";
         return;
     }
