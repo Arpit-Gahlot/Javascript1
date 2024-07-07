@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/stylesCalc.css">
+    <title>Arithmetic Calculator</title>
+</head>
+<body>
+    <header>
+        <div id="main-heading">Calculators and Converters</div>
+        <nav id="navigation-bar">
+            <ul id="nav-list">
+                <li class="nav-item">Arithmetic Calculator</li>
+                <li class="nav-item">BMI Calculator</li>
+                <li class="nav-item">Temperature Converter</li>
+                <li class="nav-item">Weight Converter</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <input id="number-display" readonly>
+            <div id="buttons">
+                <button onclick="addToDisplay('1')">1</button>
+                <button onclick="addToDisplay('2')">2</button>
+                <button onclick="addToDisplay('3')">3</button>
+                <button onclick="addToDisplay('+')" class="purple">+</button>
+                <button onclick="addToDisplay('4')">4</button>
+                <button onclick="addToDisplay('5')">5</button>
+                <button onclick="addToDisplay('6')">6</button>
+                <button onclick="addToDisplay('-')" class="purple">-</button>
+                <button onclick="addToDisplay('7')">7</button>
+                <button onclick="addToDisplay('8')">8</button>
+                <button onclick="addToDisplay('9')">9</button>
+                <button onclick="addToDisplay('*')" class="purple">*</button>
+                <button onclick="addToDisplay('.')" class="purple">.</button>
+                <button onclick="addToDisplay('0')">0</button>
+                <button onclick="clearDisplay()" class="purple">C</button>
+                <button onclick="addToDisplay('/')" class="purple">/</button>
+                <button onclick="calculate()" id="equals" class="purple">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="js/scriptCalc.js"></script>
+    
+</body>
+</html>
