@@ -8,6 +8,34 @@
     <title>BMI Calculator</title>
 </head>
 <body>
+    <header>
+        <div id="main-heading">Calculators and Converters</div>
+        <nav id="navigation-bar">
+            <ul id="nav-list">
+                <li class="nav-item"><a href="calculator.html">Arithmetic Calculator</a></li>
+                <li class="nav-item"><a href="bmi.html">BMI Calculator</a></li>
+                <li class="nav-item"><a href="temperature.html">Temperature Converter</a></li>
+                <li class="nav-item"><a href="weight.html">Weight Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="container">
+            <div id="height">
+                <button id="height-button" onclick="heightUnitSwitch()">Height<br><p class="instruction">(click to change unit)</p></button>
+                <input id="height-input" type="text">
+                <div id="height-unit">cm</div>
+            </div>
+            <div id="weight">
+                <button id="weight-button" onclick="weightUnitSwitch()">Weight<br><p class="instruction">(click to change unit)</p></button>
+                <input id="weight-input" type="text">
+                <div id="weight-unit">kg</div>
+            </div>
+            <button id="calculate-button" onclick="calculate()">Calculate</button>
+            <div id="result"></div>
+        </div>
+    </main>
+    <script src="js/scriptBMI.js"></script>
     
 </body>
 </html>

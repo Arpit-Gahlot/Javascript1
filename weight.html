@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/default.css">
+    <link rel="stylesheet" href="css/stylesWeight.css">
+    <title>Weight Converter</title>
+</head>
+<body>
+    <header>
+        <div id="main-heading">Calculators and Converters</div>
+        <nav id="navigation-bar">
+            <ul id="nav-list">
+                <li class="nav-item"><a href="calculator.html">Arithmetic Calculator</a></li>
+                <li class="nav-item"><a href="bmi.html">BMI Calculator</a></li>
+                <li class="nav-item"><a href="temperature.html">Temperature Converter</a></li>
+                <li class="nav-item"><a href="weight.html">Weight Converter</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div id="input-container">
+            <div id="input-prompt">Enter Weight and select Unit</div>
+            <div id="input-weight-container">
+                <input id="input-weight" type="text">
+                <button id="weight-unit">kg</button>
+            </div>
+            <button id="converter">Convert</button>
+        </div>
+        <div id="output-container">
+            <div id="kg-unit" class="output-unit">Kilogram</div>
+            <div id="g-unit" class="output-unit">Gram</div>
+            <div id="oz-unit" class="output-unit">Ounce</div>
+            <div id="lb-unit" class="output-unit">Pound</div>
+            <div id="kg-output" class="output-weight"></div>
+            <div id="g-output" class="output-weight"></div>
+            <div id="oz-output" class="output-weight"></div>
+            <div id="lb-output" class="output-weight"></div>
+        </div>
+
+    </main>
+    <script src="js/scriptWeight.js"></script>
+</body>
+</html>
